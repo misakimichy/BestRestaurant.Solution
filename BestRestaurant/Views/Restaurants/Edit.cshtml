@@ -1,0 +1,21 @@
+@{
+  Layout = "_Layout";
+}
+
+@model BestRestaurant.Models.Restaurant
+
+<h1>Edit the List: @Html.DisplayFor(model => model.Name)</h1>
+
+@using(Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.idRestaurant)
+    @Html.LabelFor(model => model.Name)
+    @Html.EditFor(model => model.Name)
+
+    @Html.LabelFor(model => model.BestFood)
+    @Html.EditFor(model => model.BestFood)
+
+    <input type="submit" value="Save" />
+}
+
+<p>@Html.ActionLink("Back to List", "Index")</p>
