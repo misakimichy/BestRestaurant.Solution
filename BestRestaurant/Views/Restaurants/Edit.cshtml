@@ -10,10 +10,10 @@
 {
     @Html.HiddenFor(model => model.idRestaurant)
     @Html.LabelFor(model => model.Name)
-    @Html.EditFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
 
     @Html.LabelFor(model => model.BestFood)
-    @Html.EditFor(model => model.BestFood)
+    @Html.EditorFor(model => model.BestFood)
 
     <input type="submit" value="Save" />
 }

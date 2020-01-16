@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+@model BestRestaurant.Models.Restaurant
+
+<h1>Are you sure you want to delete this restaurant?</h1>
+
+@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name);
+@Html.DisplayNameFor(model => model.BestFood): @Html.DisplayFor(model => model.BestFood);
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="Delete" />
+}
+
+@Html.ActionLink("Back to List of Restaurants", "Index");
