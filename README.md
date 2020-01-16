@@ -1,9 +1,6 @@
-# TDD Starter for C#
-Use this repo to start new projects.
+# Best Restaurant
 
-# Project
-
-#### _C#, .NET: Project, mm/dd/2020_
+#### _C#, .NET: Best Restaurant, 01/15/2020_
 
 ## Description
 Description of this application.
@@ -20,18 +17,18 @@ Description of this application.
 ## Installation:
 1. Clone this repo:
 ```
-$ git clone url-of-this-repo
+$ git clone https://github.com/misakimichy/BestRestaurant.Solution.git
 ```
 
 2. Use the following codes:
 
-a) Command to build the project. Run this in Project directory:
+a) Command to build the BestRestaurant. Run this in BestRestaurant directory:
 ```
 $ dotnet build && $ dotnet run
 ```
 
 
-b) Command for unit testing. Run this in Project.Tests directory:
+b) Command for unit testing. Run this in BestRestaurant.Tests directory:
 ```
 $ dotnet restore && dotnet test
 ```
@@ -43,7 +40,7 @@ $ dotnet restore && dotnet test
  misaki.koonce@gmail.com
 
 ## Technologies Used
-_Git, GitHub, CSS, Bootstrap, C# and ASP.NET Core MVC
+_Git, GitHub, CSS, Bootstrap, C#, ASP.NET Core MVC and Entity
 
 ## License
 Copyright © 2020 under the MIT License

@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Project.Models;
+using BestRestaurant.Models;
 
-namespace Project.Tests
+namespace BestRestaurant.Tests
 {
     [TestClass]
-    public class ProjectTest
+    public class BestRestaurantTest
     {
         [TestMethod]
         public void MethodName_DescriptionOfBehavior_ExpectedResult()

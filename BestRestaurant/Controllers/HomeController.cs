@@ -1,9 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using Project.Models;
 
-namespace  Project.Controllers
+namespace  BestRestaurant.Controllers
 {
     public class HomeController : Controller
     {

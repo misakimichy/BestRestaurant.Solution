@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using Project.Models;
+using BestRestaurant.Models;
 
-namespace Project.Controllers
+namespace BestRestaurant.Controllers
 {
-    public class ClassNameController : Controller
+    public class CuisineController : Controller
     {
-        [HttpGet("/className")]
+        [HttpGet("/Cuisine")]
         public ActionResult Index()
         {
             return View();
