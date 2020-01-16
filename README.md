@@ -3,15 +3,17 @@
 #### _C#, .NET: Best Restaurant, 01/15/2020_
 
 ## Description
-Description of this application.
+Create a website where users can add their favorite restaurants based on the type of cuisine they offer.
 
 ## Application should have:
-- 
+- `Cuisine` class - has all CRUD functionality (Create, Read, Update, Delete). "Read" means to view a particular cuisine and to list out all of the cuisines.
 
-## Spec
-| Spec | User input | Expected output |
-| :------------- | :------------- | :------------- |
-| Spec description | Add user input | Add expected UI output |
+- `Restaurant` class - has CRUD functionality
+
+- `Restaurant` class has its `Name` and `BestFood` properties.
+
+- There is a connection between a cuisine and a restaurant in the database. A cuisine can have many restaurants, but a restaurant can only be attached to one cuisine.
+
 
 
 ## Installation:
@@ -40,7 +42,7 @@ $ dotnet restore && dotnet test
  misaki.koonce@gmail.com
 
 ## Technologies Used
-_Git, GitHub, CSS, Bootstrap, C#, ASP.NET Core MVC and Entity
+_Git, GitHub, CSS, Bootstrap, C#, ASP.NET Core MVC, Entity and MySQL
 
 ## License
 Copyright © 2020 under the MIT License
